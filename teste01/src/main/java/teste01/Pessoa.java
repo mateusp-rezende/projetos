@@ -5,7 +5,15 @@ public class Pessoa {
 		private String name;
 		private int idade;
 		private int ano;
+		private String cor;
 		
+		
+		public String getCor() {
+			return cor;
+		}
+		public void setCor(String cor) {
+			this.cor = cor;
+		}
 		public int getAno() {
 			return ano;
 		}
